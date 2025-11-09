@@ -1,0 +1,225 @@
+
+   body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .propic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center; /* Center the list horizontally */
+            background-color: blue;
+            border: 2px solid white;
+        }
+
+        .navbar ul {
+            display: flex; /* Make the list items inline */
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+        }
+
+        .navbar li {
+            margin: 0 10px; /* Optional: space between items */
+        }
+
+        .navbar a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: white;
+            color: blue;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            background-color: blue;
+            padding: 10px; 
+            color: white;
+        }
+
+        .signin {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer {
+            background-color: blue;
+            color: white;
+        }
+
+        .homepageim{
+            width: 100%;
+            height: 450px;
+
+        }
+
+        .homepagetxt{
+            text-align: center;
+            border-width: 5px;
+            padding: 10px;
+            font-size: 15px;
+            color: black;
+        }
+        .buttonhm {
+            border: none;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: transparent;
+            
+        }
+        .icon{
+            height: 40px;
+            width: 40px;
+            margin-right: 20px;
+        }
+                .itemcon {
+            border: solid;
+            border-width: 2px;
+            border-color: blue;
+            margin: 15px;
+            display: flex; 
+            align-items: center; 
+            padding: 10px; 
+            flex-direction: column; 
+            max-width: 250px; 
+        }
+        .itempic {
+            width: 200px; 
+            height: 200px; 
+            margin-bottom: 10px;
+        }
+        .itemtxt {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .itemprice {
+            font-weight: bold;
+            font-size: 20px;
+            color: darkblue;
+        }
+        .add_to_cart{
+
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: blue;
+        } 
+        .add_to_cart:hover{
+            background-color: white;
+            color: black;
+            border: solid 2px blue;
+            border-radius: 10px;
+        }
+        .layout{
+            display:flex; 
+            flex-wrap: wrap; 
+            justify-content: center;
+        }
+
+        .iconcart{
+            height: 30px;
+            width: 30px;
+        }
+
+        .iconcart:hover{
+            cursor: pointer;
+        }
+        .icon{
+            height: 40px;
+            width: 40px;
+            margin-right: 20px;
+        }
+        .loginsec{
+            margin-left: 35px;
+        }
+        .login{
+            height: 50px;
+            width: 60%;
+            border: 2px solid blue;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+        .loginbut{
+            background-color: blue;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+                
+        .signuptxt{
+            background-color:transparent; 
+            padding:20px; 
+            text-align:center; 
+            border: 2px solid #000000; 
+            border-radius: 8px; 
+            max-width: 800px; 
+            margin: auto; 
+            margin-bottom: 10px;
+        }
+        .regist{
+            height: 50px;
+            width: 60%;
+            border: 2px solid blue;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+            table {
+        border-collapse: separate;
+        margin-left: auto;    
+        margin-right: auto;
+    }
+    table th, table td {
+        padding: 10px 80px; 
+    }
+    .checkoutcon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px; 
+    gap: 20px;
+}
+
+.logo
+{
+     height: 30px;
+     width: 30px;
+}
+.emaillink{
+    color: white;
+}
+
+.emaillink:hover{
+    color: white;
+}
