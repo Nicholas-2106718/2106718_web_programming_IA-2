@@ -1,0 +1,92 @@
+<!--
+  Name: Nicholas Smith
+  ID: 2106718
+  Teacher: Mrs.Badhika
+-->
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+<body>
+    <header class="header">
+        <h1> Omni-Mart </h1>
+        <div class="signin">
+            <img class="icon" src="assets/computer-icons-user-profile-circle-abstract.png">
+            <button class="buttonhm" onclick="location.href='signin.html'">Sign In</button>
+            <button class="buttonhm" onclick="location.href='signup.html'">Sign Up</button>
+            <button class="buttonhm" onclick="logout()">Log out</button>
+            <img class="iconcart" src="assets/cart-logo-png.png" alt="cart" onclick="location.href='cart.html'; showcart()">
+        </div>
+    </header>
+   <nav class="navbar">
+        <ul>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='furniture.html'>Furniture</a></li>
+            <li><a href='electronics.html'>Electronics</a></li>
+            <li><a href='appliances.html'>Appliances</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+         <p class="homepagetxt">
+            Discover our wide selection of stylish and affordable furniture. Whether you're 
+            decorating a new space or upgrading your current home, find the perfect pieces to suit 
+            your style. Browse now and make your dream home a reality!
+         </p>
+    </section>
+
+    <section class="layout">
+        <div class="itemcon">
+            <a href=""><img class="itempic" src="assets/simple-bed.jpg" alt="bed"></a>
+            <p class="itemtxt">Homfa Queen Size Bed, Button PU Leather Upholstered Platform Bed Frame with 
+                Adjustable Headboard, White</p>
+            <p class="itemprice">Price: $14,999</p>
+             <button class="add_to_cart"  onclick="alert('Added to cart!');add_cart('Homfa Queen Size Bed', 14999)">Add to Cart</button>
+        </div>
+        <div class="itemcon">
+            <a href=""><img class="itempic" src="assets/dinningtable.jpg" alt="table"></a>
+            <p class="itemtxt">East West Furniture YAT-AWA-T Yarmouth Rectangle Modern Dining Table, 
+                30x48 Inch, Walnut
+            </p>
+            <p class="itemprice">Price: $20,499</p>
+             <button class="add_to_cart"  onclick="alert('Added to cart!'); add_cart('Yarmouth Rectangle Dining Table', 20499)">Add to Cart</button>
+        </div>
+        <div class="itemcon">
+            <a href=""><img class="itempic" src="assets/meadtdbhvdfy.jpg" alt="sofa"></a>
+            <p class="itemtxt">High-quality polyester fabric upholstery, Elegant Slate Gray
+                Dimensions: 84" W x 35" D x 34" H
+                Features: Removable and washable cushion covers, modern minimalist design
+                Weight: 120 lbs
+            </p>
+            <p class="itemprice">Price: $22,799</p>
+             <button class="add_to_cart" onclick="alert('Added to cart!'); add_cart('Slate Gray Upholstered Sofa', 22799)">Add to Cart</button>
+        </div>
+        
+    </section>
+
+    <footer class="footer" id="contact">
+        <h3>PHONE:</h3>
+        <p>1-876-XXX-XXXX</p>
+        <h3>EMAIL:</h3>
+        <p ><a href="mailto:NICHOLASCSMITH@students.utech.edu.jm" class="emaillink">Omni-Mart@outlook.com</a></p>
+        <h3>About Us:</h3>
+        <p>Name: Nicholas Smith</p>
+        <p>ID: 2106718</p>
+        <p>Email:NICHOLASCSMITH@students.utech.edu.jm</p>
+        <p>Module: CIT2011 UE2</p>
+        <p>Assignment: Individual Assignment #2</p>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+
+
+</script>
+
+</html>

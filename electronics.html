@@ -1,0 +1,89 @@
+<!--
+  Name: Nicholas Smith
+  ID: 2106718
+  Teacher: Mrs.Badhika
+-->
+<!DOCTYPE html>
+<html>
+<head>
+
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+<body>
+    <header class="header">
+        <h1> Omni-Mart </h1>
+        <div class="signin">
+            <img class="icon" src="assets/computer-icons-user-profile-circle-abstract.png">
+            <button class="buttonhm" onclick="location.href='signin.html'">Sign In</button>
+            <button class="buttonhm" onclick="location.href='signup.html'">Sign Up</button>
+            <button class="buttonhm" onclick="logout()">Log out</button>
+            <img class="iconcart" src="assets/cart-logo-png.png" alt="cart" onclick="location.href='cart.html'; showcart()">
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='furniture.html'>Furniture</a></li>
+            <li><a href='electronics.html'>Electronics</a></li>
+            <li><a href='appliances.html'>Appliances</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section >
+         <p class="homepagetxt">
+            Upgrade your tech game with our latest electronics collection! From smartphones and 
+            laptops to smart home devices and accessories, we have everything you need to 
+            stay connected and productive. Discover high-quality, affordable gadgets designed 
+            to make your life easier and more enjoyable. Shop now and experience the power of 
+            cutting-edge technology at your fingertips!
+         </p>
+    </section>
+
+    <section class="layout">
+        <div class="itemcon">
+            <a href=""><img class="itempic" src="assets/printer.jpg" alt=""></a>
+            <p>HP OfficeJet Pro 8125e Wireless All-in-One Color Inkjet Printer, Print, scan, Copy, 
+                ADF, Duplex Printing Best-for-Home Office, 3 Month Instant Ink Trial Included, 
+                AI-Enabled (405T6A)</p>
+                <p class="itemprice">Price: $30,000</p>
+             <button class="add_to_cart" onclick="alert('Added to cart!'); add_cart('HP Printer', 30000)">Add to Cart</button>
+        </div>
+        <div class="itemcon">
+            <a href=""><img class="itempic" src="assets/laptop.jpg" alt=""></a>
+            <p>HP 15.6 inch Laptop, HD Touchscreen Display, AMD Ryzen 3 7320U, 16 GB RAM,  1 TB SSD, 
+                AMD Radeon Graphics, Windows 11 Home, Natural Silver, 15-fc0399nr</p>
+                <p class="itemprice">Price: $149,099</p>
+             <button class="add_to_cart" onclick="alert('Added to cart!'); add_cart('HP Laptop', 149099)">Add to Cart</button>
+
+        </div>
+        <div class="itemcon">
+            <a href=""><img class="itempic" src="assets/desktop.JPG" alt=""></a>
+            <p>HP ProDesk 600 G3 SFF Desktop Computer with 21.5" FHD Monitor, Intel Quad Core i5-6500,
+                 16GB DDR4, 256GB SSD, DisplayPort, Keyboard & Mouse, WiFi, BT, 
+                 Windows 11 Pro.</p>
+                <p class="itemprice">Price: $250,000</p>
+             <button class="add_to_cart" onclick="alert('Added to cart!!!'); add_cart('HP Desktop', 250000)">Add to Cart</button>
+
+        </div>
+        
+    </section>
+    <footer class="footer" id="contact">
+        <h3>PHONE:</h3>
+        <p>1-876-XXX-XXXX</p>
+        <h3>EMAIL:</h3>
+        <p ><a href="mailto:NICHOLASCSMITH@students.utech.edu.jm" class="emaillink">Omni-Mart@outlook.com</a></p>
+        <h3>About Us:</h3>
+        <p>Name: Nicholas Smith</p>
+        <p>ID: 2106718</p>
+        <p>Email:NICHOLASCSMITH@students.utech.edu.jm</p>
+        <p>Module: CIT2011 UE2</p>
+        <p>Assignment: Individual Assignment #2</p>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>

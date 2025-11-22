@@ -1,0 +1,60 @@
+<!--
+  Name: Nicholas Smith
+  ID: 2106718
+  Teacher: Mrs.Badhika
+-->
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+    <header class="header">
+        <h1> Omni-Mart </h1>
+        <div class="signin">
+            <img class="icon" src="assets/computer-icons-user-profile-circle-abstract.png">
+            <button class="buttonhm" onclick="location.href='signin.html'">Sign In</button>
+            <button class="buttonhm" onclick="location.href='signup.html'">Sign Up</button>
+            <button class="buttonhm" onclick="logout()">Log out</button>
+            <img class="iconcart" src="assets/cart-logo-png.png" alt="cart" onclick="location.href='cart.html'; showcart()">
+        </div>
+    </header>
+     <nav class="navbar">
+        <ul>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='furniture.html'>Furniture</a></li>
+            <li><a href='electronics.html'>Electronics</a></li>
+            <li><a href='appliances.html'>Appliances</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p style="font-size: 16px; color: #333; text-align: center; max-width: 800px; margin: 20px auto;">
+            Please enter your delivery address and payment details below to complete your purchase. 
+            Make sure to provide accurate information so we can deliver your order promptly. 
+            Once you've filled in your address and card number, click the "Submit" button to finalize 
+            your checkout.
+         </p>
+    </section>
+            <form>
+        <label for="address">Shipping Address:</label>
+        <br>
+        <input class="regist" type="text" id="address" name="address" placeholder="Enter your address"><br><br>
+        
+        <label for="card">Card Number:</label>
+        <br>
+        <input class="regist" type="text" id="card" name="card" placeholder="Enter your card number"><br><br>
+        <button class="loginbut" onclick="checkoutclick()">Check Out</button>
+      
+    </form>
+
+
+        
+</body>
+
+<script src="script.js"></script>
+
+</html>
